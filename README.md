@@ -12,9 +12,8 @@
 ## 파일 구조
 
 - `RAG_통합_최종.ipynb`: 통합 RAG 노트북 (메인 파일)
-- `extract_tables.py`: PDF에서 표 데이터 추출 스크립트
 - `2019_quota.csv`: 2019학년도 입학정원 데이터
-- `degrees.csv`: 학사학위의 종류 데이터
+- `degrees.csv`: 학사학위의 종류 데이터 (수동 정리)
 - `contract_dept.csv`: 계약학과 설치·운영 데이터
 
 ## 사용 방법
@@ -29,7 +28,7 @@ pip install langchain_upstage langchain_community langchain-openai openai pdfplu
 
 3. PDF 및 CSV 파일 준비:
    - `ewha.pdf`: 이화여대 학칙 PDF 파일
-   - CSV 파일들: `extract_tables.py` 실행하여 생성
+   - CSV 파일들: 수동으로 정리된 파일 사용
 
 4. 노트북 실행:
    - `RAG_통합_최종.ipynb`의 셀들을 순서대로 실행
@@ -58,7 +57,7 @@ pip install langchain_upstage langchain_community langchain-openai openai pdfplu
 ## 참고사항
 
 - Windows 한글 경로 문제: 벡터 DB는 임시 디렉토리에 저장됩니다
-- CSV 파일 생성: `python extract_tables.py` 실행하여 PDF에서 표 추출
+- CSV 파일: 수동으로 정리된 파일 사용
 
 ## 작업 기여자
 

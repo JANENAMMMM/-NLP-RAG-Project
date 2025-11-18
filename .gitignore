@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vector stores and databases
+vectorstore/
+rag_vectorstore_combined/
+table_kb/
+*.faiss
+*.pkl
+
+# Results and outputs
+rag_results_combined.csv
+rag_responses.csv
+
+# PDF files (usually too large for git)
+*.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+

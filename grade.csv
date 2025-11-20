@@ -1,0 +1,27 @@
+year,grade,gpa
+from 1980,A+,4.3
+from 1980,A,4
+from 1980,A-,3.7
+from 1980,B+,3.3
+from 1980,B,3
+from 1980,B-,2.7
+from 1980,C+,2.3
+from 1980,C,2
+from 1980,C-,1.7
+from 1980,D+,1.3
+from 1980,D,1
+from 1980,D-,0.7
+from 1980,F,0
+before 1980,A+,4
+before 1980,A,4
+before 1980,A-,4
+before 1980,B+,3
+before 1980,B,3
+before 1980,B-,3
+before 1980,C+,2
+before 1980,C,2
+before 1980,C-,2
+before 1980,D+,1
+before 1980,D,1
+before 1980,D-,1
+before 1980,F,0

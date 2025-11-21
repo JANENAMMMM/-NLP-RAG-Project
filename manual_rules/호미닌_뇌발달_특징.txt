@@ -1,0 +1,5 @@
+Homo erectus 시기 이후 뇌 용적 증가와 관련된 해부학적 변화 요약 (출처: Smithsonian Human Origins Program, *Human Evolution* 참고자료).
+- Encephalization: 뇌 용적/체중 비율이 증가하여 인지 능력이 향상되었다.
+- Neoteny: 인간은 발달과정이 지연된(juvenilization) 특징을 유지한다. 얼굴이 편평해지고 두개골이 둥글어지며, 사춘기 이전의 두개 모습이 성인에도 남는다. 이는 더 큰 뇌 공간을 확보하고 학습 기간을 늘리기 위해 발생한 적응이다.
+- Dentition: 치열이 줄어들었으나, 뇌 용적 증가와 직접적인 상관관계는 neoteny만큼 강하지 않다.
+따라서 "뇌 크기 증가와 관련된 핵심 변화"를 묻는 질문에서는 Neoteny(유아형성)가 대표적인 답으로 사용된다.

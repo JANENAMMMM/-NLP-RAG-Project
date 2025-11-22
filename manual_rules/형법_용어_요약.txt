@@ -1,0 +1,8 @@
+미국·영국계 일반법(Common law)에서 사용하는 재산범죄 관련 기본 개념 요약 (출처: Black's Law Dictionary, Model Penal Code 주석).
+- Larceny: 타인의 재물을 불법적으로 점유(탈취)할 의사(intent to permanently deprive)로 취득하는 범죄. 폭행이나 위협 요소가 없으며, 점유를 취득한 시점 이전/동시에 힘을 사용하지 않는다.
+- Robbery: Larceny + 폭행 또는 위협. 재물을 점유하거나 탈취한 직전·직후(escape 포함)에 피해자에게 힘/폭력을 행사하거나 위협하면 강도에 해당한다.
+- Receiving stolen property: 절취된 물건임을 알거나 알 수 있었음에도 이를 취득/보유/처분하는 행위. 물건이 "도난" 상태임을 인식해야 성립한다.
+- Possession of stolen property: Receiving stolen property의 구성요건을 충족할 때 성립한다. 도난 사실을 몰랐다면 성립하지 않는다.
+- Burglary: 야간 여부와 무관하게 침입(breaking & entering)하여 중죄를 저지르려는 의도가 있을 때 성립한다.
+- Theft: Larceny, embezzlement, false pretenses 등을 포괄하는 일반용어.
+추가 규칙: 물건을 먼저 집어 들고, 그 직후 탈출 과정에서 힘을 사용한 경우라도 여전히 강도(Robbery)로 처벌될 수 있다.

@@ -39,9 +39,15 @@ prompts,answers
 (B) 평균 평점이 2.50 이상인 학생 
 (C) 졸업 직전 학기에 있는 학생 
 (D) 재학생 신분인 경우",(C)
+<<<<<<< HEAD
 "QUESTION9) 이화여자대학교의 설립 정신은 무엇인가요? (A) 공산주의 이념 (B) 불교 정신 (C) 기독교 정신 (D) 자유주의 사상",(C)
 "QUESTION10) 이화여자대학교의 위치는 어디인가요? (A) 강남구 (B) 서대문구 (C) 종로구 (D) 송파구",(B)
 "QUESTION11) 학점 기준에 따르면 1학점당 수업 시간은 몇 시간 이상이어야 하나요? (A) 10시간 (B) 15시간 (C) 20시간 (D) 25시간",(B)
+=======
+"QUESTION9) 이화여자대학교의 설립 정신은 무엇인가요?  (A) 공산주의 이념  (B) 불교 정신  (C) 기독교 정신  (D) 자유주의 사상",(C)
+"QUESTION10) 이화여자대학교의 위치는 어디인가요?  (A) 강남구  (B) 서대문구  (C) 종로구  (D) 송파구",(B)
+"QUESTION11) 학점 기준에 따르면 1학점당 수업 시간은 몇 시간 이상이어야 하나요?  (A) 10시간  (B) 15시간  (C) 20시간  (D) 25시간",(B)
+>>>>>>> restore-work
 "QUESTION12) 전공과 관련된 조항으로 올바른 것은?
 (A) 2 이상의 학부가 연계하여 제공하는 전공을 복수전공이라 한다.
 (B) 학생이 소속한 제1전공과정에 기반하여 타학문과의 융복합 교육과정을 제공하는 전공을 융합전공이라 한다.
@@ -199,7 +205,11 @@ prompts,answers
  (E) uncontrollable grief and despair
  (F) visual hallucinations
  (G) delusions of persecution",(B)
+<<<<<<< HEAD
 "QUESTION32) This question refers to the following information: For the catastrophe of 1914 the Germans are responsible. … Germany, in this matter, was unfortunate enough to allow herself (in spite of her skill at dissimulation) to be betrayed into an excess of candour by her characteristic tendency to go to extremes. Deutschland über alles. Germany above everything! … There you have the ultimate framework of an old but childish race. Georges Clemenceau, Grandeur and Misery of Victory, 1930. From the passage, one may infer that Clemenceau believed: (A) that Germany's skill at dissimulation was responsible for its victory in the war (B) that the reason Germany lost the war was that it was betrayed from within (C) that the lyrics from the popular song Deutschland über alles (which eventually became the German national anthem) were evidence of Germany's aggressive attitude (D) that Germany's misfortune in the war was due to its lack of skill in dissimulation (E) that the lyrics from the popular song Deutschland über alles (which eventually became the German national anthem) were the reason Germany started the war (F) that Germany provided the ultimate framework for modern warfare (G) that Germany's excessive candour led to its downfall in the war",(C)
+=======
+"QUESTION32) This question refers to the following information: For the catastrophe of 1914 the Germans are responsible. … Germany, in this matter, was unfortunate enough to allow herself (in spite of her skill at dissimulation) to be betrayed into an excess of candour by her characteristic tendency to go to extremes. Deutschland über alles. Germany above everything! … There you have the ultimate framework of an old but childish race. Georges Clemenceau, Grandeur and Misery of Victory, 1930. From the passage, one may infer that Clemenceau believed:  (A) that Germany's skill at dissimulation was responsible for its victory in the war  (B) that the reason Germany lost the war was that it was betrayed from within  (C) that the lyrics from the popular song Deutschland über alles (which eventually became the German national anthem) were evidence of Germany's aggressive attitude  (D) that Germany's misfortune in the war was due to its lack of skill in dissimulation  (E) that the lyrics from the popular song Deutschland über alles (which eventually became the German national anthem) were the reason Germany started the war  (F) that Germany provided the ultimate framework for modern warfare  (G) that Germany's excessive candour led to its downfall in the war",(C)
+>>>>>>> restore-work
 "QUESTION33) You receive a phone call from Hermann H., age 28, who says he is “totally miserable” because of the recent breakup with his girlfriend and that he would like to begin therapy with you. During the first session with Hermann, you find out that his political views are completely repugnant to you, and you feel that you would not enjoy working with him. As an ethical psychologist, you should:
 (A) Discuss your discomfort with Hermann's political views in the first session.
 (B) Ignore your personal feelings and continue therapy without discussing the difference in political views.
@@ -278,7 +288,11 @@ prompts,answers
 (I) conspiracy to commit theft.
 (J) aiding and abetting theft.",(G)
 "QUESTION40)____________ refers to a strategic process involving stakeholder assessment to create long-term relationships with customers, while maintaining, supporting, and enhancing the natural environment.
+<<<<<<< HEAD
 (A) Greenwashing(B) Eco-branding(C) Recycle and reprocess management(D) Sustainable Development(E) Environmental Stewardship(F) Superfund reauthorization(G) Eco-strategy(H) Environmental Impact Assessment(I) Green Marketing(J) Eco-efficient Operations",(I)
+=======
+ (A) Greenwashing (B) Eco-branding (C) Recycle and reprocess management (D) Sustainable Development (E) Environmental Stewardship (F) Superfund reauthorization (G) Eco-strategy (H) Environmental Impact Assessment (I) Green Marketing (J) Eco-efficient Operations",(I)
+>>>>>>> restore-work
 "QUESTION41)This question refers to the following information. Seizing me, he led me down to the House of Darkness… To the house where those who enter do not come out, Along the road of no return, To the house where those who dwell, do without light, Where dirt is their drink, their food is of clay… Where light cannot be seen. They dwell in the dark, And upon the door and bolt, there lies dust. from Tablet VII, The Epic of Gilgamesh, Sumeria, ca. 2100 B.C.E.
 
 Truth is good and its worth is lasting. It has not been disturbed since the day of its creator, Whereas he who transgresses its ordinances is punished. It lies as a path in front of even him who knows nothing. Wrongdoing has never yet brought its venture to port… Those whom the gods guide cannot lose themselves. Those to whom they forbid passage will not be able to cross the river of life. from The Maxims of Ptahhotep, Egypt, ca. 2400 B.C.E.

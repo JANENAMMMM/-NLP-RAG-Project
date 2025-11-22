@@ -1,0 +1,62 @@
+# save as create_mmlu_filtered_csv.py
+from datasets import load_dataset
+import pandas as pd
+import sys
+
+TARGET_CATEGORIES = {"law", "psychology", "business", "philosophy", "history"}
+
+def format_prompt(row):
+    q = row.get("question", "") or ""
+
+    options_raw = row.get("options")
+
+    # options를 list 형태로 강제 변환 (numpy array 포함)
+    if isinstance(options_raw, (list, tuple)):
+        options = list(options_raw)
+    else:
+        try:
+            options = list(options_raw)
+        except:
+            options = []
+
+    lines = [q]
+    for i, opt in enumerate(options):
+        lines.append(f"({chr(65+i)}) {opt}")
+
+    return "\n".join(lines)
+
+def normalize_answer(ans):
+    return f"({str(ans).strip().upper()})"
+
+def main(output_path="mmlu_filtered_testset.csv"):
+
+    print("📥 Loading MMLU-Pro...")
+    ds = load_dataset("TIGER-Lab/MMLU-Pro")
+
+    frames = []
+    for split in ["validation", "test", "train"]:
+        if split in ds:
+            print(f"➡ {split} split 로드")
+            frames.append(ds[split].to_pandas())
+
+    if not frames:
+        print("❌ split 없음")
+        sys.exit(1)
+
+    df = pd.concat(frames, ignore_index=True)
+
+    df["category_lc"] = df["category"].astype(str).str.lower()
+    filtered = df[df["category_lc"].isin(TARGET_CATEGORIES)].copy()
+
+    print("🎯 총 필터링된 문제 수:", len(filtered))
+
+    filtered["prompts"] = filtered.apply(format_prompt, axis=1)
+    filtered["answers"] = filtered["answer"].apply(normalize_answer)
+
+    testset = filtered[["prompts", "answers"]]
+    testset.to_csv(output_path, index=False, encoding="utf-8-sig")
+
+    print(f"💾 {output_path} 생성 완료!")
+
+if __name__ == "__main__":
+    main()
